@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/new/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/new/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/new/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/new/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/new/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/new/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/new/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/new/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/new/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/new/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/new/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/new/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./favicon/new/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff"> -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="css/main.css" rel="stylesheet">
+    <title>EMPIRA - Homepage</title>
+  </head>
+  <body class="js-header-main">
+    <main class="main">
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="header__burger"><span> </span></div>
+          <div class="header__menu"><a class="header__menu-logo" href="index.html">RK</a>
+            <div class="header__menu-exit"></div>
+            <div class="header__menu-content">
+              <ul class="header__menu-list" id="myMenu">
+                <li class="header__menu-item" data-menuanchor="home" data-anchor=".section_home"><a class="header__menu-link" href="#home">Trang chủ</a></li>
+                <li class="header__menu-item" data-menuanchor="about" data-anchor=".section__about"><a class="header__menu-link" href="#about">Giới thiệu</a></li>
+                <li class="header__menu-item" data-menuanchor="services" data-anchor=".section__services"><a class="header__menu-link" href="#services">Dịch vụ</a></li>
+                <li class="header__menu-item" data-menuanchor="experience" data-anchor=".section__experience"><a class="header__menu-link" href="#experience">Đối tác</a></li>
+                <li class="header__menu-item" data-menuanchor="works" data-anchor=".section__works"><a class="header__menu-link" href="#works">Dự án</a></li>
+                <li class="header__menu-item" data-menuanchor="testimonials" data-anchor=".section__testimonials"><a class="header__menu-link" href="#testimonials">Digital Marketing</a></li>
+                <li class="header__menu-item" data-menuanchor="media" data-anchor=".section__media"><a class="header__menu-link" href="#media">Media Production</a></li>
+                <li class="header__menu-item" data-menuanchor="tiktok" data-anchor=".section__tiktok"><a class="header__menu-link" href="#tiktok">Tiktok Shop</a></li>
+                <li class="header__menu-item" data-menuanchor="kol" data-anchor=".section__kol"><a class="header__menu-link" href="#kol">KOL/KOC Management</a></li>
+                <li class="header__menu-item" data-menuanchor="business" data-anchor=".section__business"><a class="header__menu-link" href="#business">Business Consultant</a></li>
+                <li class="header__menu-item" data-menuanchor="contacts" data-anchor=".section__contacts"><a class="header__menu-link" href="#contacts">Liên hệ</a></li>
+              </ul>
+            </div>
+          </div><a class="header__logo" href="index.html">EMPIRA</a>
+          <ul class="header__links">
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#services">Dịch vụ</a></li>
+            <li><a href="#experience">Đối tác</a></li>
+            <li><a href="#works">Dự án</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="wrapper" id="preloader">
+        <div class="main-circle">
+          <div class="green-circle">
+            <div class="brown-circle"></div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-widget__wrapper">
+        <div class="nav-widget">
+          <div class="nav-widget__line">
+            <div class="nav-widget__line-active progress-line-js"></div>
+          </div>
+          <div class="nav-widget__page-number js-page-number">1/9</div>
+        </div>
+      </div>
+      <div id="pagepiling">
+        <div class="section section_home pp-scrollable">
+          <div class="home js-section" id="home">
+            <div class="home-container"><img class="home-image home-image--desktop home__image js-img-home" src="img/main/home/king.jpg" alt="Author's photo"><img class="home-image home-image--mobile home__image js-img-home-adapt" src="img/main/home/home.jpg" alt="Author's photo">
+              <div class="home-container__info home-author">
+                <h1 class="neue neue-headline1 home-author__name js-author-home">We're Empira</h1>
+                <p class="manrope manrope-text2 home-author__description"><a href="./index.html" style="font-weight: bolder; font-family: Menata; font-size: 24px;">EMPIRA</a> được phát triển qua lăng kính và trải nghiệm của những người trẻ với khao khát mang đến những giải pháp sáng tạo đột phá hơn cho doanh nghiệp.</p><a class="home-author__button home-button" href="#contacts">
+                <div class="home-button__item"></div></a>
+              </div>
+              <div class="home-ticker js-ticker">
+                <div class="home-ticker__wrapper">
+                  <p class="neue neue-headline2 home-ticker__text">đột phá //&nbsp;linh hoạt //&nbsp;sáng tạo //&nbsp;đột phá //&nbsp;linh hoạt //&nbsp;sáng tạo //&nbsp;đột phá //&nbsp;linh hoạt //&nbsp;sáng tạo //&nbsp;</p>
+                  <p class="neue neue-headline2 home-ticker__text">đột phá //&nbsp;linh hoạt //&nbsp;sáng tạo //&nbsp;đột phá //&nbsp;linh hoạt //&nbsp;sáng tạo //&nbsp;đột phá //&nbsp;linh hoạt //&nbsp;sáng tạo //&nbsp;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__about pp-scrollable">
+          <div class="section-main about js-section" id="about">
+            <div class="container-main about__container">
+              <div class="about__row">
+                <!-- <div class="about__title neue-headline2-green">Khởi tạo từ<br>những điều mới mẻ</div> -->
+                <!-- <div class="about__work-info neue-headline3">Đột phá<br>Linh hoạt<br>Sáng tạo</div> -->
+                <!-- <div class="about__img-wrapper">
+                  <img class="about__img" src="img/main/about/img1.jpg" alt="img">
+                  <img class="about__img" src="img/main/about/img1.jpg" alt="img">
+                </div> -->
+                <div class="about__box">
+                  <div class="about__box--img">
+                    <img class="about__img" src="img/main/about/img2.jpg" alt="img">
+                  </div>
+                  <div class="about__box--text">
+                    <div class="neue-headline2 about__skill-counter">Giới thiệu - Mới làm quen</div>
+                    <div class="about__skill-desc about__skill-desc-one manrope-text2">Khởi tạo từ những điều mới mẻ, EMPIRA là 1 business consultant agency chuyên cung cấp trọn bộ các giải pháp về tiếp thị, quảng cáo, thiết kế, PR, tạo dựng nội dung, và xây dựng chiến lược truyền thông trên mạng xã hội.<br><br>EMPIRA được phát triển qua lăng kính và trải nghiệm của những người trẻ với khao khát mang đến những giải pháp sáng tạo đột phá hơn cho doanh nghiệp. Một hành trình tiên phong, sáng tạo và đầy tiềm năng đang mở ra cho tất cả chúng ta.</div>
+                  </div>
+                </div>
+
+                <div class="about__box">
+                  <div class="about__box--img">
+                    <img class="about__img" src="img/main/about/img3.jpg" alt="img">
+                  </div>
+                  <div class="about__box--text">
+                    <div class="neue-headline2 about__skill-counter">Sự khác biệt - Có mới "nới" cũ</div><span class="neue-text2 about__skill-name"></span>
+                    <div class="about__skill-desc about__skill-desc-two manrope-text2"><p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Với các các doanh nghiệp nước ngoài:</p>Thấu hiểu mong muốn đưa tính bản địa hóa vào thương hiệu, EMPIRA mang chất liệu văn hóa Việt Nam sống động lại trong từng giải pháp sáng tạo và từ đó làm mới tất cả đến vô cùng. Để từ đó, các thương hiệu quốc tế  khéo léo để lại dấu ấn riêng trong tâm trí khách hàng địa phương.
+                      <br><br>
+                      <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Với các các doanh nghiệp trong nước:</p>Mới hơn, trẻ hơn và lạ hơn là những gì EMPIRA theo đuổi. Vì chúng tôi tin rằng chính cái mới sẽ kết nối những khái niệm tưởng chừng đã cũ cùng bật mở vô số ý tưởng đột phá. Một giải pháp dù sáng tạo và khác lạ đến đâu thì cũng đều cần bắt đầu từ tính phù hợp để mang lại hiệu quả cao nhất.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="about__box">
+                  <div class="about__box--img">
+                    <img class="about__img" src="img/main/about/img4.jpg" alt="img">
+                  </div>
+                  <div class="about__box--text">
+                    <div class="neue-headline2 about__skill-counter">Giá trị - Đã đến lúc làm mới</div><span class="neue-text2 about__skill-name"></span>
+                    <div class="about__skill-desc about__skill-desc-three manrope-text2">EMPIRA làm mới những giá trị cũ để thực sự tạo nên hiệu quả khác biệt cho doanh nghiệp của khách hàng.
+                      <br><br>
+                      <p style="text-transform: uppercase; font-size: 150%; font-family: Marope;">Đột Phá - Linh Hoạt - Sáng Tạo</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="about__box">
+                  <div class="about__box--img">
+                    <img class="about__img" src="img/main/about/img5.jpg" alt="img">
+                  </div>
+                  <div class="about__box--text">
+                    <div class="neue-headline2 about__skill-counter">Tầm Nhìn - Mới không giới hạn</div><span class="neue-text2 about__skill-name"></span>
+                    <div class="about__skill-desc about__skill-desc-four manrope-text2">
+                      <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Giải pháp sáng tạo của EMPIRA:</p>
+                      Sẽ luôn được đo ni đóng giày cho phù hợp với yêu cầu của khách hàng và linh hoạt lồng ghép những xu hướng mới nhất của thị trường. Từ đó, EMPIRA luôn chủ động đón đầu mọi xu hướng và giúp doanh nghiệp tiếp cận tối đa các nền tảng số và công cụ truyền thông online.
+                      <br><br>
+                      <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Nói đến sự đột phá:</p>
+                      EMPIRA tin rằng sức ảnh hưởng tích cực của nó tới doanh nghiệp không có điểm kết thúc khi chúng ta cùng nhau bắt đầu.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="about__box">
+                  <div class="about__box--img">
+                    <img class="about__img" src="img/main/about/img6.jpg" alt="img">
+                  </div>
+                  <div class="about__box--text">
+                    <div class="neue-headline2 about__skill-counter">Sứ Mệnh - Mới cho tới</div><span class="neue-text2 about__skill-name"></span>
+                    <div class="about__skill-desc about__skill-desc-five manrope-text2">
+                      <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Sứ mệnh của EMPIRA:</p>
+                      Không chỉ là làm mới những giải pháp tối ưu cho doanh nghiệp, mà đó còn phải là chiến lược phù hợp và hiệu quả nhất với từng khách hàng.
+                      <br><br>
+                      <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Từ ý tưởng sơ khai đến giải pháp hoàn thiện:</p>
+                      EMPIRA luôn thực hiện với sự chuyên nghiệp và tính trách nhiệm cao. Phải thử cho trọn, đổi cho đáng và làm mới cho tới trong từng dự án được giao.
+                      <br><br>
+                      <p style="font-size: 150%; font-family: Marope;">Đó là sứ mệnh EMPIRA hết mình theo đuổi.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- <div class="about__skills">
+                  <div>
+                    <div class="about__skill-title about__skill-title-one">
+                      <div class="neue-headline2 about__skill-counter">Giới thiệu - Mới làm quen</div>
+                      <span class="neue-text2 about__skill-name">Mới làm quen</span>
+                    </div>
+                    <div class="about__skill-desc about__skill-desc-one manrope-text2">EMPIRA là 1 business consultan agency chuyên cung cấp trọn bộ các giải pháp về tiếp thị, quảng cáo, thiết kế, PR, tạo dựng nội dung, và xây dựng chiến lược truyền thông trên mạng xã hội.<br><br>EMPIRA được phát triển qua lăng kính và trải nghiệm của những người trẻ với khát khao mang đến những giải pháp sáng tạo đột phá hơn cho doanh nghiệp.</div>
+                  </div>
+                  
+                  <div class="about__skill-title about__skill-title-two">
+                    <div class="neue-headline2 about__skill-counter">Sự khác biệt - Có mới "nới" cũ</div><span class="neue-text2 about__skill-name"></span>
+                  </div>
+                  <div class="about__skill-desc about__skill-desc-two manrope-text2"><p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Với các các doanh nghiệp nước ngoài:</p>Mới hơn, trẻ hơn và lạ hơn là những gì EMPIRA theo đuổi. Vì chúng tôi tin rằng chính cái mới sẽ kết nối những khái niệm tưởng chừng đã cũ cùng bật mở vô số ý tưởng đột phá. Một giải pháp dù sáng tạo và khác lạ đến đâu thì cũng đều cần bắt đầu từ tính phù hợp để mang lại hiệu quả cao nhất.
+                    <br><br>
+                    <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Với các các doanh nghiệp trong nước:</p>Thấu hiểu mong muốn đưa tính bản địa hóa vào thương hiệu, EMPIRA mang chất liệu văn hóa Việt Nam sống động lại trong từng giải pháp sáng tạo và từ đó làm mới tất cả đến vô cùng. Để từ đó, các thương hiệu quốc tế khéo léo để lại dấu ấn riêng trong tâm trí khách hàng địa phương.
+                  </div>
+                  ---------------------------ROW TESTING------------------------------
+                  <div class="about__skill-title about__skill-title-three">
+                    <div class="neue-headline2 about__skill-counter">Giá trị - Đã đến lúc làm mới</div><span class="neue-text2 about__skill-name"></span>
+                  </div>
+                  <div class="about__skill-desc about__skill-desc-three manrope-text2">EMPIRA làm mới những giá trị cũ để thực sự tạo nên hiệu quả khác biệt cho doanh nghiệp của khách hàng.
+                    <br>
+                    <br>
+                    <p style="text-transform: uppercase; font-size: 150%; font-family: Marope;">Đột Phá - Linh Hoạt - Sáng Tạo</p>
+                  </div>
+                  <div class="about__skill-title about__skill-title-four">
+                    <div class="neue-headline2 about__skill-counter">Tầm Nhìn - Mới không giới hạn</div><span class="neue-text2 about__skill-name"></span>
+                  </div>
+                  <div class="about__skill-desc about__skill-desc-four manrope-text2">
+                    <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Giải pháp sáng tạo của EMPIRA:</p>
+                    Sẽ luôn được đo ni đóng giày cho phù hợp với yêu cầu của khách hàng và linh hoạt lồng ghép những xu hướng mới nhất của thị trường. Từ đó, EMPIRA luôn chủ động đón đầu mọi xu hướng và giúp doanh nghiệp tiếp cận tối đa các nền tảng số và công cụ truyền thông online.
+                    <br><br>
+                    <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Nói đến sự đột phá:</p>
+                    EMPIRA tin rằng sức ảnh hưởng tích cực của nó tới doanh nghiệp không có điểm kết thúc khi chúng ta cùng nhau bắt đầu.
+                  </div>
+                  <div class="about__skill-title about__skill-title-five">
+                    <div class="neue-headline2 about__skill-counter">Sứ Mệnh - Mới cho tới</div><span class="neue-text2 about__skill-name"></span>
+                  </div>
+                  <div class="about__skill-desc about__skill-desc-five manrope-text2">
+                    <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Sứ mệnh của EMPIRA:</p>
+                    Không chỉ là làm mới những giải pháp tối ưu cho doanh nghiệp, mà đó còn phải là chiến lược phù hợp và hiệu quả nhất với từng khách hàng.
+                    <br><br>
+                    <p style="font-size: 150%; font-family: Marope; line-height: 155%; color: #f16b1a;">Từ ý tưởng sơ khai đến giải pháp hoàn thiện:</p>
+                    EMPIRA luôn thực hiện với sự chuyên nghiệp và tính trách nhiệm cao. Phải thử cho trọn, đổi cho đáng và làm mới cho tới trong từng dự án được giao.
+                    <br><br>
+                    <p style="font-size: 150%; font-family: Marope;">Đó là sứ mệnh EMPIRA hết mình theo đuổi.</p>
+                  </div>
+                </div> -->
+
+
+
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__services pp-scrollable">
+          <div class="section-main services js-section" id="services">
+            <div class="container-main services__container">
+              <p style="font-size: 48px; text-align: center;text-transform: uppercase; margin: 16px 0px 32px 0px;">EMPIRA cung cấp các dịch vụ</p>
+              <div class="services__row">
+                <div class="services__column">
+                  <div class="services__card js-services-item">
+                    <div class="services__card-title js-services-control" data-control="1"><span class="manrope-text2 services__card-number">01</span>
+                      <div class="neue-headline1 services__card-name">Digital Marketing</div>
+                    </div>
+                    <div class="services__tab js-services-content" data-item="1">
+                      <div class="services__tab-img-wrapper"> <img class="services__tab-img" src="img/main/testimonials/img1.png" alt="img"></div>
+                      <div class="services__tab-desc manrope-text2">
+                        <ul style="list-style-type:disc; margin-left: 16px;">
+                          <b style="font-family: Marope; color: #f16b1a;">Tiếp thị số</b>
+                          <li>Content Marketing<br>(Giải pháp tiếp thị nội dung)</li>
+                          <li>Visual Marketing<br>(Giải pháp tiếp thị hình ảnh)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__card js-services-item">
+                    <div class="services__card-title js-services-control" data-control="2"><span class="manrope-text2 services__card-number">02</span>
+                      <div class="neue-headline1 services__card-name">Media Production</div>
+                    </div>
+                    <div class="services__tab js-services-content" data-item="2">
+                      <div class="services__tab-img-wrapper"> <img class="services__tab-img" src="img/main/blog/img9.png" alt="img"></div>
+                      <div class="services__tab-desc manrope-text2">
+                        <ul style="list-style-type:disc; margin-left: 16px;">
+                          <b style="font-family: Marope; color: #f16b1a;">Sản phẩm truyền thông</b>
+                          <li>Branding design<br>(Thiết kế thương hiệu)</li>
+                          <li>Packaging design<br>(Thiết kế bao bì)</li>
+                          <li>Ads design<br>(Thiết kế quảng cáo)</li>
+                          <li>Social media & e-commerce<br>(Truyền thông mạng xã hội & Thương mại điện tử)</li>
+                          <li>3D modeling<br>(Tạo hình 3D)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__card js-services-item">
+                    <div class="services__card-title js-services-control" data-control="3"><span class="manrope-text2 services__card-number">03</span>
+                      <div class="neue-headline1 services__card-name">Tiktok Shop</div>
+                    </div>
+                    <div class="services__tab js-services-content" data-item="3">
+                      <div class="services__tab-img-wrapper"> <img class="services__tab-img" src="img/main/tiktok/img1.jpg" alt="img"></div>
+                      <div class="services__tab-desc manrope-text2">
+                        <ul style="list-style-type:disc; margin-left: 16px;">
+                          <b style="font-family: Marope; color: #f16b1a;">Gian hàng Tiktok</b>
+                          <li>Livestreaming<br>(Phát trực tiếp)</li>
+                          <li>VR & AR<br>(Thực tế ảo & Thực tế ảo tăng cường)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__card js-services-item">
+                    <div class="services__card-title js-services-control" data-control="4"><span class="manrope-text2 services__card-number">04</span>
+                      <div class="neue-headline1 services__card-name">KOL/KOC Management</div>
+                    </div>
+                    <div class="services__tab js-services-content" data-item="4">
+                      <div class="services__tab-img-wrapper"> <img class="services__tab-img" src="img/main/kol/img6.png" alt="img"></div>
+                      <div class="services__tab-desc manrope-text2">
+                        <ul style="list-style-type:disc; margin-left: 16px;">
+                          <b style="font-family: Marope; color: #f16b1a;">Quản lý KOL/KOC</b>
+                          <li>Livestreaming<br>(Phát trực tiếp)</li>
+                          <li>Influencer Marketing<br>(Marketing người có ảnh hưởng)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__card js-services-item">
+                    <div class="services__card-title js-services-control" data-control="5"><span class="manrope-text2 services__card-number">05</span>
+                      <div class="neue-headline1 services__card-name">Business Consultant</div>
+                    </div>
+                    <div class="services__tab js-services-content" data-item="5">
+                      <div class="services__tab-img-wrapper"> <img class="services__tab-img" src="img/main/blog/img25.png" alt="img"></div>
+                      <div class="services__tab-desc manrope-text2">
+                        <ul style="list-style-type:disc; margin-left: 16px;">
+                          <b style="font-family: Marope; color: #f16b1a;">Tư vấn kinh doanh</b>
+                          <li>Business partner<br>(Đối tác kinh doanh)
+                            <ul style="list-style-type: circle; margin-left: 16px;">
+                              <li>Tư vấn chiến lược kinh doanh</li>
+                              <li>Thực hiện marketing</li>
+                              <li>Tư vấn xây dựng đội ngũ dân sự</li>
+                              <li>Xây dựng hệ thống bán hàng & chăm sóc khách hàng</li>
+                              <li>Thiết kế quy trình làm việc tối ưu</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__card js-services-item">
+                    <div class="services__card-title js-services-control" data-control="6"><span class="manrope-text2 services__card-number">06</span>
+                      <div class="neue-headline1 services__card-name">Out-Of-Home Advertising</div>
+                    </div>
+                    <div class="services__tab js-services-content" data-item="6">
+                      <div class="services__tab-img-wrapper"> <img class="services__tab-img" src="img/main/blog/img26.png" alt="img"></div>
+                      <div class="services__tab-desc manrope-text2">
+                        <ul style="list-style-type:disc; margin-left: 16px;">
+                          <b style="font-family: Marope; color: #f16b1a;">Quảng cáo ngoài trời</b>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="services__tabs js-services-tabs"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__experience pp-scrollable">
+          <div class="section-main experience js-section" id="experience">
+            <div class="container-main experience__container">
+              <div class="experience__title neue-headline2-green">Thương hiệu đối tác</div>
+              <div class="experience__row">
+                <div class="experience__resume">
+                  <div class="experience__resume-text manrope-text2">Họ là những đối tác đẳng cấp và sáng suốt trong việc tìm ra đối tác chiến lược PHÙ HỢP nhất với doanh nghiệp của mình. Niềm tin của họ dành cho EMPIRA sẽ không bao giờ cũ.</div><a class="experience__resume-button button-primary"><span>Tải xuống hồ sơ</span><img src="img/main/arrow.svg" alt="img"></a>
+                </div>
+                <div class="experience__history"><a class="experience__card active">
+                    <div class="experience__card-top">
+                      <div class="experience__position neue-headline3">Là đối tác của các đơn vị</div>
+                      <!-- <div class="experience__company neue-text1">Fastlane</div> -->
+                    </div>
+                    <div class="experience__date manrope-text2">
+                      <img src="./img/main/experience/img2.png" alt="img">
+                    </div></a><a class="experience__card active">
+                    <div class="experience__card-top">
+                      <div class="experience__position neue-headline3">Business Partner - Đối tác kinh doanh</div>
+                      <!-- <div class="experience__company neue-text1">Acumen</div> -->
+                    </div>
+                    <div class="experience__date manrope-text2">
+                      <img src="./img/main/experience/img3.png" alt="img">
+                    </div></a><a class="experience__card active">
+                    <div class="experience__card-top">
+                      <div class="experience__position neue-headline3">Tự hào mang đến giá trị cho các thương hiệu</div>
+                      <!-- <div class="experience__company neue-text1">Designify</div> -->
+                    </div>
+                    <div class="experience__date manrope-text2">
+                      <img src="./img/main/experience/img4.png" alt="img">
+                    </div>
+                  </a>
+                  <!-- <a class="experience__card active" href="#" data-cursor="img/main/experience/cursor4.png">
+                    <div class="experience__card-top">
+                      <div class="experience__position neue-headline3">Graphic Designer</div>
+                      <div class="experience__company neue-text1">Infinity Atlas</div>
+                    </div>
+                    <div class="experience__date manrope-text2"></div>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__works pp-scrollable">
+          <div class="section-main works js-section" id="works">
+            <div class="container-main works__container">
+              <div class="works__title neue-headline2-green">Một số dự án từng tham gia</div>
+              <div class="swiper-button-wrapper">
+                <div class="swiper-button-prev2 works__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                </div>
+                <div class="swiper-button-next2 works__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                </div>
+              </div>
+              <div class="works__row">
+                <div class="swiper-container2 works__swiper-container">
+                  <div class="swiper-wrapper works__swiper-wrapper">
+                    <div class="swiper-slide works__swiper-slide works__slide-xs">
+                      <a class="works__card"><img class="works__img" src="img/main/works/img1.png" alt="img">
+                        <!-- <div class="works__text neue-headline3">Wales Times</div> -->
+                      </a></div>
+                    <div class="swiper-slide works__swiper-slide works__slide-sm">
+                      <a class="works__card"><img class="works__img" src="img/main/works/img2.png" alt="img">
+                        <!-- <div class="works__text neue-text2">Gaming Overload</div> -->
+                      </a></div>
+                    <div class="swiper-slide works__swiper-slide works__slide-sm">
+                      <a class="works__card"><img class="works__img" src="img/main/works/img3.png" alt="img">
+                        <!-- <div class="works__text neue- neue-text2">Trade Formula</div> -->
+                      </a></div>
+                    <div class="swiper-slide works__swiper-slide works__slide-xs">
+                      <a class="works__card"><img class="works__img" src="img/main/works/img4.png" alt="img">
+                        <!-- <div class="works__text neue-headline3">Astray</div> -->
+                      </a></div>
+                    <div class="swiper-slide works__swiper-slide works__slide-sm">
+                      <a class="works__card"><img class="works__img" src="img/main/works/img5.png" alt="img">
+                        <!-- <div class="works__text neue-text2">Gaming Overload</div> -->
+                      </a></div>
+                    <div class="swiper-slide works__swiper-slide works__slide-sm">
+                      <a class="works__card"><img class="works__img" src="img/main/works/img6.png" alt="img">
+                        <!-- <div class="works__text neue- neue-text2">Trade Formula</div> -->
+                      </a></div>
+                    <div class="swiper-slide works__swiper-slide works__slide-xs">
+                      <a class="works__card"><img class="works__img" src="img/main/works/img7.png" alt="img">
+                        <!-- <div class="works__text neue-headline3">Astray</div> -->
+                      </a></div>
+                      <!-- <div class="swiper-slide works__swiper-slide works__slide-xs">
+                        <a class="works__card"><img class="works__img" src="img/main/works/img8.png" alt="img">
+                          <div class="works__text neue-headline3">Astray</div>
+                      </a></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__testimonials pp-scrollable">
+          <div class="section-main testimonials js-section" id="testimonials">
+            <div class="container-main testimonials__container">
+              <div class="testimonials__title neue-headline2-green">Digital Marketing - Tiếp thị số</div>
+              <P class="digital_text">Ứng dụng kỹ thuật Digital để tối ưu hóa chuyển đổi ở từng giai đoạn, tùy theo mục tiêu chiến dịch.</P>
+                  <p class="digital_text" style="padding-bottom: 16px;">Một số xu hướng nổi bật trong tương lai mà EMPIRA đang từng bước thực hiện áp dụng trong các giải pháp doanh nghiệp.</p>
+                  <div class="digital_box">
+                    <div class="digital_mar">
+                      <p class="digital_head">Content Marketing<br>Giải pháp tiếp thị nội dung</p>
+                      <p class="digital_text">Nội dung là vũ khí quan trọng trong hoạt động truyền thông. Bên cạnh đó, để tối ưu độ hiệu quả cho doanh nghiệp, EMPIRA còn hướng đến việc đưa ra các giải pháp nội dung tiếp thị tích hợp cho doanh nghiệp, đặc biệt là trên nền tảng digital. Từ đó, các doanh nghiệp truyền tải thông điệp sáng tạo nội dung đúng với đối tượng khách hàng thông qua các hình thức phù hợp để tối ưu các kênh.</p>
+                    </div>
+                    <div class="digital_mar">
+                      <p class="digital_head">Visual Marketing<br>Giải pháp tiếp thị trong hình ảnh</p>
+                      <p class="digital_text">Khi người dùng Mạng Xã Hội có xu hướng "Xem" nhiều hơn "Đọc" thì hình ảnh đẹp sẽ trở thành vũ khí đắc lực giúp doanh nghiệp giữ chân khách hàng ngay trong giây đầu tiên, tạo thiện cảm với sản phẩm, thương hiệu và kích thích mua hàng.</p>    
+                    </div>
+                  </div>
+                  <div class="digital_box digital_box-img">
+                    <div class="digital_img" style="background-image: url(./img/main/testimonials/img1.png);"></div>
+                    <div class="digital_img" style="background-image: url(./img/main/testimonials/img2.png);"></div>
+                    <!-- <p class="digital_text digital_desc">
+                      Dịu nhẹ hoa cúc<br>
+                      Kháng khuẩn mật ong<br>
+                      Phục hồi toàn diện<br><br>
+                      Vì làn da cũng mong manh như cánh hoa nên luôn cần được nâng niu bởi những dịu êm kỳ diệu. Hương liệu thiên nhiên từ hoa cúc thơm mướt cùng mật ong dịu nhẹ sẽ mang lại cho làn da một diện mạo hoàn hảo.<br><br>
+                      Với công dụng kháng khuẩn tuyệt diệu cùng chức năng phục hồi toàn diện, Combo Hoa cúc đến từ Zakka sẽ là lựa chọn TỐT NHẤT cho Da Nhạy Cảm cùng các sản phẩm: Micellar, Foam Cleanser, Toner và Cream.<br><br>
+                      Làn da nhạy cảm nhất hay khỏe mạnh nhất thì vẫn cần được chăm sóc bởi những sản phẩm tự nhiên tốt nhất!!<br>
+                      -------------------------<br>
+                      ZAKKA NATURALS - SPA & MỸ PHẨM TRỊ LIỆU THIÊN NHIÊN<br><br>
+                      #Skincareproduct #Vietnam #Zakka #ZakkaNatural #Zakkafact #NaturalIngredients #HealthySkin #NaturalCosmetic #lamsach #canbang #beauty #skincare
+                    </p>
+                    <div class="digital_img" style="background-image: url(./img/main/about/img1R.jpg);"></div> -->
+                  </div>
+                  <!-- <div class="digital_box">
+                    <div class="digital_img" style="background-image: url(./img/main/about/img1R.jpg);"></div>
+                    <p class="digital_text digital_desc">
+                      BẢO VỆ NHÂN ĐÔI, AN TOÀN GẤP BỘI CÙNG KHÓA CỬA THÔNG MINH T1<br><br>
+                      Tạm biệt rủi ro trộm cắp, cạy cửa, hay thậm chí là mò mật khẩu với "bác bảo vệ" đa năng Intel Home:<br><br>
+                      + Bảo mật tối đa với dãy mật khẩu ảo hơn 24 số nhằm đề phòng người tò mò nhìn trộm và xâm nhập được vào nhà.<br>
+                      + Mã hóa thẻ từ chống sao chép, thích hợp cho người già và trẻ em không rõ vân tay vẫn có thể ra vào an toàn.<br>
+                      + Lưu trữ và quản lý lịch sử mở khóa bất cứ thời gian nào thông qua ứng dụng trên điện thoại, kiểm soát kỹ hơn tình trạng ngôi nhà nếu bạn đang ở xa.<br>
+                      + Tự động khóa ngay lập tức sau khi đóng cửa lại, không sợ quên quên nhớ nhớ.<br><br>
+                      Một sản phẩm công nghệ mới tập hợp những tính năng vượt trội, vừa đẳng cấp, vừa bảo vệ an toàn tuyệt đối cho ngôi nhà của bạn. Còn chần chờ gì nữa mà không inbox để được tư vấn mua ngay.<br>
+                      ----------------<br>
+                      INTEL HOME - ĐƠN VỊ CUNG CẤP KHÓA CỬA THÔNG MINH CAO CẤP<br>
+                      #intelhome #khoacuavantay #khoacuavantayintelhome #khoacuathongminh
+                    </p>
+                    <div class="digital_img" style="background-image: url(./img/main/about/img1R.jpg);"></div>
+                  </div> -->
+              <!-- <div class="testimonials__row">
+                <div class="testimonials__title neue-headline2-green">Digital Marketing - Tiếp thị số</div>
+                <div class="swiper-container2 testimonials__swiper-container">
+                  <P class="digital_text">Ứng dụng kỹ thuật Digital để tối ưu hóa chuyển đổi ở từng giai đoạn, tùy theo mục tiêu chiến dịch.</P>
+                  <p class="digital_text">Một số xu hướng nổi bật trong tương lai mà EMPIRA đang từng bước thực hiện áp dụng trong các giải pháp doanh nghiệp.</p>
+                  <div class="digital_box">
+                    <div class="digital_mar">
+                      <p class="digital_head">Content Marketing - Giải pháp tiếp thị nội dung</p>
+                      <p class="digital_text">Nội dung là vũ khí quan trọng trong hoạt động truyền thông. Bên cạnh đó, để tối ưu độ hiệu quả cho doanh nghiệp, EMPIRA còn hướng đến việc đưa ra các giải pháp nội dung tiếp thị tích hợp cho doanh nghiệp, đặc biệt là trên nền tảng digital. Từ đó, các doanh nghiệp truyền tải thông điệp sáng tạo nội dung đúng với đối tượng khách hàng thông qua các hình thức phù hợp để tối ưu các kênh.</p>
+                    </div>
+                    <div class="digital_mar">
+                      <p class="digital_head">Visual Marketing - Giải pháp tiếp thị trong hình ảnh</p>
+                      <p class="digital_text">Khi người dùng Mạng Xã Hội có xu hướng "Xem" nhiều hơn "Đọc" thì hình ảnh đẹp sẽ trở thành vũ khí đắc lực giúp doanh nghiệp giữ chân khách hàng ngay trong giây đầu tiên, tạo thiện cảm với sản phẩm, thương hiệu và kích thích mua hàng.</p>    
+                    </div>
+                  </div>
+                  <p class="digital_head">Mỹ Phẩm</p>
+                  <div class="digital_box">
+                    <p class="digital_text digital_desc">
+                      Dịu nhẹ hoa cúc<br>
+                      Kháng khuẩn mật ong<br>
+                      Phục hồi toàn diện<br><br>
+                      Vì làn da cũng mong manh như cánh hoa nên luôn cần được nâng niu bởi những dịu êm kỳ diệu. Hương liệu thiên nhiên từ hoa cúc thơm mướt cùng mật ong dịu nhẹ sẽ mang lại cho làn da một diện mạo hoàn hảo.<br><br>
+                      Với công dụng kháng khuẩn tuyệt diệu cùng chức năng phục hồi toàn diện, Combo Hoa cúc đến từ Zakka sẽ là lựa chọn TỐT NHẤT cho Da Nhạy Cảm cùng các sản phẩm: Micellar, Foam Cleanser, Toner và Cream.<br><br>
+                      Làn da nhạy cảm nhất hay khỏe mạnh nhất thì vẫn cần được chăm sóc bởi những sản phẩm tự nhiên tốt nhất!!<br>
+                      -------------------------<br>
+                      ZAKKA NATURALS - SPA & MỸ PHẨM TRỊ LIỆU THIÊN NHIÊN<br><br>
+                      #Skincareproduct #Vietnam #Zakka #ZakkaNatural #Zakkafact #NaturalIngredients #HealthySkin #NaturalCosmetic #lamsach #canbang #beauty #skincare
+                    </p>
+                    <div class="digital_img" style="background-image: url(./img/main/about/img1R.jpg);"></div>
+                  </div>
+                  
+                  <p class="digital_head">Đời Sống</p>
+                  <p class="digital_text">
+                    BẢO VỆ NHÂN ĐÔI, AN TOÀN GẤP BỘI CÙNG KHÓA CỬA THÔNG MINH T1<br><br>
+                    Tạm biệt rủi ro trộm cắp, cạy cửa, hay thậm chí là mò mật khẩu với "bác bảo vệ" đa năng Intel Home:<br><br>
+                    + Bảo mật tối đa với dãy mật khẩu ảo hơn 24 số nhằm đề phòng người tò mò nhìn trộm và xâm nhập được vào nhà.<br>
+                    + Mã hóa thẻ từ chống sao chép, thích hợp cho người già và trẻ em không rõ vân tay vẫn có thể ra vào an toàn.<br>
+                    + Lưu trữ và quản lý lịch sử mở khóa bất cứ thời gian nào thông qua ứng dụng trên điện thoại, kiểm soát kỹ hơn tình trạng ngôi nhà nếu bạn đang ở xa.<br>
+                    + Tự động khóa ngay lập tức sau khi đóng cửa lại, không sợ quên quên nhớ nhớ.<br><br>
+                    Một sản phẩm công nghệ mới tập hợp những tính năng vượt trội, vừa đẳng cấp, vừa bảo vệ an toàn tuyệt đối cho ngôi nhà của bạn. Còn chần chờ gì nữa mà không inbox để được tư vấn mua ngay.<br>
+                    ----------------<br>
+                    INTEL HOME - ĐƠN VỊ CUNG CẤP KHÓA CỬA THÔNG MINH CAO CẤP<br>
+                    #intelhome #khoacuavantay #khoacuavantayintelhome #khoacuathongminh
+                  </p>
+
+                  <div class="swiper-wrapper testimonials__swiper-wrapper">
+                    <div class="swiper-slide testimonials__swiper-slide">
+                      <div class="testimonials__card">
+                        <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/main/testimonials/img1.jpg" alt="img"></div>
+                        <div class="testimonials__content"><img class="testimonials__content-img" src="img/main/testimonials/quote.svg" alt="img">
+                          <div class="testimonials__content-text manrope-text1">Return on investment founders alpha metrics virality gamification startup ownership partner network leverage. Burn rate network effects entrepreneur research & development partnership hypotheses. Facebook user experience vesting period innovator early adopters focus customer.</div>
+                          <div class="testimonials__inner">
+                            <div class="testimonials__author-wrapper">
+                              <div class="testimonials__content-author neue-headline3">Mary Biorick</div>
+                              <div class="testimonials__content-company">CEO, Rised Inc.</div>
+                            </div>
+                            <div class="testimonials__swiper-button-wrapper">
+                              <div class="swiper-button-prev2 testimonials__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                              </div>
+                              <div class="swiper-button-next2 testimonials__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide testimonials__swiper-slide">
+                      <div class="testimonials__card">
+                        <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/main/testimonials/img2.jpg" alt="img"></div>
+                        <div class="testimonials__content"><img class="testimonials__content-img" src="img/main/testimonials/quote.svg" alt="img">
+                          <div class="testimonials__content-text manrope-text1">Chúng tôi tin rằng, không có đồng nào quan trọng hơn đồng lòng.<br>Niềm tin này dẫn dắt chúng tôi theo đuổi 3 giá trị: tinh khiết trong sáng tạo, thô bạo với tầm thường, không phân biệt kỳ thị ngân sách phun sương.</div>
+                          <div class="testimonials__inner">
+                            <div class="testimonials__author-wrapper">
+                              <div class="testimonials__content-author neue-headline3">The Dot</div>
+                              <div class="testimonials__content-company">Content Banker</div>
+                            </div>
+                            <div class="testimonials__swiper-button-wrapper">
+                              <div class="swiper-button-prev2 testimonials__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                              </div>
+                              <div class="swiper-button-next2 testimonials__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide testimonials__swiper-slide">
+                      <div class="testimonials__card">
+                        <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/main/testimonials/img3.jpg" alt="img"></div>
+                        <div class="testimonials__content"><img class="testimonials__content-img" src="img/main/testimonials/quote.svg" alt="img">
+                          <div class="testimonials__content-text manrope-text1">Chúng tôi đang nâng cao vai trò của Lazada không chỉ là một nền tảng mua sắm, mà hướng đến phong cách sống, tiến tới những hy vọng, ước mơ và mong muốn – cho dù bạn là người bán hay người mua sắm.</div>
+                          <div class="testimonials__inner">
+                            <div class="testimonials__author-wrapper">
+                              <div class="testimonials__content-author neue-headline3">Lazada</div>
+                              <div class="testimonials__content-company">International E-commerce Company</div>
+                            </div>
+                            <div class="testimonials__swiper-button-wrapper">
+                              <div class="swiper-button-prev2 testimonials__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                              </div>
+                              <div class="swiper-button-next2 testimonials__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide testimonials__swiper-slide">
+                      <div class="testimonials__card">
+                        <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/main/testimonials/img4.jpg" alt="img"></div>
+                        <div class="testimonials__content"><img class="testimonials__content-img" src="img/main/testimonials/quote.svg" alt="img">
+                          <div class="testimonials__content-text manrope-text1">Chúng tôi tin tưởng vào sứ mệnh của một tổ chức tài chính có trách nhiệm, và cam kết phụng sự cuộc sống của khách hàng và cộng đồng nơi ngân hàng hoạt động. Giống như việc chúng tôi cam kết giúp khách hàng quản lý tài chính hiệu quả hơn và phát triển kinh doanh lớn mạnh, UOB cũng kiên định trong việc hỗ trợ cộng đồng thông qua các lĩnh vực ưu tiên là nghệ thuật, trẻ em và giáo dục.</div>
+                          <div class="testimonials__inner">
+                            <div class="testimonials__author-wrapper">
+                              <div class="testimonials__content-author neue-headline3">United Overseas Bank Limited</div>
+                              <div class="testimonials__content-company">Multinational Banking Corporation</div>
+                            </div>
+                            <div class="testimonials__swiper-button-wrapper">
+                              <div class="swiper-button-prev2 testimonials__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                              </div>
+                              <div class="swiper-button-next2 testimonials__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide testimonials__swiper-slide">
+                      <div class="testimonials__card">
+                        <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/main/testimonials/img5.jpg" alt="img"></div>
+                        <div class="testimonials__content"><img class="testimonials__content-img" src="img/main/testimonials/quote.svg" alt="img">
+                          <div class="testimonials__content-text manrope-text1">Chúng tôi tin tưởng vào sứ mệnh của một tổ chức tài chính có trách nhiệm, và cam kết phụng sự cuộc sống của khách hàng và cộng đồng nơi ngân hàng hoạt động. Giống như việc chúng tôi cam kết giúp khách hàng quản lý tài chính hiệu quả hơn và phát triển kinh doanh lớn mạnh, UOB cũng kiên định trong việc hỗ trợ cộng đồng thông qua các lĩnh vực ưu tiên là nghệ thuật, trẻ em và giáo dục.</div>
+                          <div class="testimonials__inner">
+                            <div class="testimonials__author-wrapper">
+                              <div class="testimonials__content-author neue-headline3">United Overseas Bank Limited</div>
+                              <div class="testimonials__content-company">Multinational Banking Corporation</div>
+                            </div>
+                            <div class="testimonials__swiper-button-wrapper">
+                              <div class="swiper-button-prev2 testimonials__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                              </div>
+                              <div class="swiper-button-next2 testimonials__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide testimonials__swiper-slide">
+                      <div class="testimonials__card">
+                        <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/main/testimonials/img6.jpg" alt="img"></div>
+                        <div class="testimonials__content"><img class="testimonials__content-img" src="img/main/testimonials/quote.svg" alt="img">
+                          <div class="testimonials__content-text manrope-text1">Chúng tôi tin tưởng vào sứ mệnh của một tổ chức tài chính có trách nhiệm, và cam kết phụng sự cuộc sống của khách hàng và cộng đồng nơi ngân hàng hoạt động. Giống như việc chúng tôi cam kết giúp khách hàng quản lý tài chính hiệu quả hơn và phát triển kinh doanh lớn mạnh, UOB cũng kiên định trong việc hỗ trợ cộng đồng thông qua các lĩnh vực ưu tiên là nghệ thuật, trẻ em và giáo dục.</div>
+                          <div class="testimonials__inner">
+                            <div class="testimonials__author-wrapper">
+                              <div class="testimonials__content-author neue-headline3">United Overseas Bank Limited</div>
+                              <div class="testimonials__content-company">Multinational Banking Corporation</div>
+                            </div>
+                            <div class="testimonials__swiper-button-wrapper">
+                              <div class="swiper-button-prev2 testimonials__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                              </div>
+                              <div class="swiper-button-next2 testimonials__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="section section__media pp-scrollable">
+          <div class="section-main blog js-section" id="blog">
+            <div class="container-main blog__container">
+              <div class="blog__row">
+                <div class="blog__title neue-headline2-green">Media Production - Sản phẩm truyền thông</div>
+                <div class="digital_head">Branding Design</div>
+                <div class="swiper-button-wrapper">
+                  <div class="swiper-button-prev2 blog__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                  </div>
+                  <div class="swiper-button-next2 blog__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                  </div>
+                </div>
+                <div class="swiper-container2 blog__swiper-container">
+                  <div class="swiper-wrapper blog__swiper-wrapper">
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-xl"> <a class="blog__card blog__card-md" href="#"><img class="blog__card-img" src="img/main/blog/img1.png" alt="img">
+                        <!-- <div class="blog__card-date manrope-text1">13 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">Defora</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img2.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Ghim</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img3.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Thao Dien Life</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img4.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">N'quare Graphic</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-xl"> <a class="blog__card blog__card-md" href="#"><img class="blog__card-img" src="img/main/blog/img5.png" alt="img">
+                        <!-- <div class="blog__card-date manrope-text1">13 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">Natural Craft</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img6.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">19 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">Yen Spa</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img7.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">19 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">The Bafe</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img8.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">19 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">Brothers</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img9.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">19 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">Greens Inside</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img10.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">19 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">Antex</div></a></div>
+                  </div>
+                </div>
+                <div class="digital_head">Packaging Design</div>
+                <div class="swiper-button-wrapper">
+                  <div class="swiper-button-prev3 blog__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                  </div>
+                  <div class="swiper-button-next3 blog__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                  </div>
+                </div>
+                <div class="swiper-container3 blog__swiper-container">
+                  <div class="swiper-wrapper blog__swiper-wrapper">
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img11.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Select</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img12.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Melos</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img13.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">The Hall Market</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-xl"> <a class="blog__card blog__card-md" href="#"><img class="blog__card-img" src="img/main/blog/img14.png" alt="img">
+                        <!-- <div class="blog__card-date manrope-text1">13 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">TFK</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img15.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">19 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">TFK</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img16.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">19 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">Juna</div></a></div>
+                  </div>
+                </div>
+                <div class="digital_head">Ads Design</div>
+                <div class="swiper-button-wrapper">
+                  <div class="swiper-button-prev4 blog__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                  </div>
+                  <div class="swiper-button-next4 blog__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                  </div>
+                </div>
+                <div class="swiper-container4 blog__swiper-container">
+                  <div class="swiper-wrapper blog__swiper-wrapper">
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img17.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Select</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img18.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Melos</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img19.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">The Hall Market</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-xl"> <a class="blog__card blog__card-md" href="#"><img class="blog__card-img" src="img/main/blog/img20.png" alt="img">
+                        <!-- <div class="blog__card-date manrope-text1">13 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">TFK</div></a></div>
+                  </div>
+                </div>
+                <div class="digital_head">Social Media</div>
+                <div class="swiper-button-wrapper">
+                  <div class="swiper-button-prev5 blog__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                  </div>
+                  <div class="swiper-button-next5 blog__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                  </div>
+                </div>
+                <div class="swiper-container5 blog__swiper-container">
+                  <div class="swiper-wrapper blog__swiper-wrapper">
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img21.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Magnum</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img22.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Riddley's Burger</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img23.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Haute</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-xl"> <a class="blog__card blog__card-md" href="#"><img class="blog__card-img" src="img/main/blog/img24.png" alt="img">
+                        <!-- <div class="blog__card-date manrope-text1">13 March 2021</div> -->
+                        <div class="blog__card-title neue-headline3">Triangle</div></a></div>
+                  </div>
+                </div>
+                <div class="digital_head">E-Commerce</div>
+                <div class="swiper-button-wrapper">
+                  <div class="swiper-button-prev6 blog__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                  </div>
+                  <div class="swiper-button-next6 blog__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                  </div>
+                </div>
+                <div class="swiper-container6 blog__swiper-container">
+                  <div class="swiper-wrapper blog__swiper-wrapper">
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img blog__card-imge" src="img/main/blog/img27.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title-media neue-headline3">Một gian hàng chỉnh chu với nội dung sáng tạo là bước đầu tiên giúp thương hiệu chiếm được lòng tin của khách hàng, tăng cơ hội tiếp cận và thuyết phục họ mua sản phẩm.</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img blog__card-imge" src="img/main/blog/img28.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title-media neue-headline3">Cập nhật Banner và Product Frames theo các chương trình sale của sàn, giúp doanh nghiệp dễ dàng trang trí gian hàng, tham gia chương trình.</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img blog__card-imge" src="img/main/blog/img29.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title-media neue-headline3">Cập nhật Banner và Product Frames theo các chương trình sale của sàn, giúp doanh nghiệp dễ dàng trang trí gian hàng, tham gia chương trình.</div></a></div>
+                  </div>
+                </div>
+                <div class="digital_head">3D Modeling</div>
+                <div class="swiper-button-wrapper">
+                  <div class="swiper-button-prev7 blog__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                  </div>
+                  <div class="swiper-button-next7 blog__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                  </div>
+                </div>
+                <div class="swiper-container7 blog__swiper-container">
+                  <div class="swiper-wrapper blog__swiper-wrapper">
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img30.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Marble</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="blog__card-img" src="img/main/blog/img31.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Sundew</div></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__tiktok pp-scrollable">
+          <div class="section-main blog js-section" id="tiktok">
+            <div class="container-main blog__container">
+              <div class="blog__row">
+                <div class="blog__title neue-headline2-green">Tiktok Shop - Gian hàng Tiktok</div>
+                <div class="digital_head">Livestreaming</div>
+                <div class="tiktok_box">
+                  <div class="digital_text">Sự phát triển của xu hướng tiếp thị Livestreaming chính là công cụ tuyệt vời để thương hiệu thể hiện cá tính và giá trị một cách chân thực nhất.</div>
+                  <div class="digital_text">Social Commerce là thuật ngữ mô tả hình thức trải nghiệm mua sắm trên mạng xã hội và hứa hẹn trong năm 2022, chúng ta sẽ thấy được tiềm năng khổng lồ của xu hướng này.</div>
+                </div>
+                <div class="digital_head">Thực tế ảo VR và thực tế tăng cường AR</div>
+                <div class="tiktok_box">
+                  <div class="digital_text">Một trong những xu hướng Digital Marketing năm 2022 hứa hẹn sẽ tiếp tục "làm mưa làm gió" trong nhiều năm tới chính là VR và AR. Như Facebook đã khẳng định: "Thực tế tăng cường (AR) và thực tế ảo (VR) chính là tương lai."</div>
+                  <div class="digital_text">VR và AR còn được gọi là Media Marketing 360 độ. Các doanh nghiệp sẽ sử dụng các loại hình tiếp thị này để khách hàng hình dung và trải nghiệm sản phẩm một cách chân thực nhất. Giúp nâng cao nhận thức khách hàng, khả năng "chốt đơn" mà còn mang lại lợi thế cạnh tranh mạnh mẽ.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__kol pp-scrollable">
+          <div class="section-main blog js-section" id="kol">
+            <div class="container-main blog__container">
+              <div class="blog__row">
+                <div class="blog__title neue-headline2-green">KOL/KOC Management - Quản lý KOL/KOC</div>
+                <div class="digital_head">KOL/Influencer Marketing</div>
+                <div class="kol_box">
+                  <div class="digital_text">Năm 2023 được dự đoán là một năm của các Content Creator. Ngành công nghiệp Influencer Marketing có giá trị 9.7 tỷ $ trong năm 2020 và dự kiến sẽ tăng lên 15 tỷ $ vào năm 2023.<br><br>Sự tăng trưởng đột phá này do sự mở rộng nhanh chóng của Tiktok cùng nhiều nền tảng khác.<br><br></div>
+                </div>
+                <div class="digital_head">Một số đối tác từng tham gia:</div>
+                <div class="swiper-button-wrapper">
+                  <div class="swiper-button-prev7 blog__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                  </div>
+                  <div class="swiper-button-next7 blog__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                  </div>
+                </div>
+                <div class="swiper-container7 blog__swiper-container">
+                  <div class="swiper-wrapper blog__swiper-wrapper">
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="kol__card-img" src="img/main/kol/img1.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Garnier</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="kol__card-img" src="img/main/kol/img2.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Samsung</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="kol__card-img" src="img/main/kol/img3.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Cheil</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="kol__card-img" src="img/main/kol/img4.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Metub</div></a></div>
+                  </div>
+                </div>
+                <div class="digital_head">Một số dự án từng tham gia:</div>
+                <div class="swiper-button-wrapper">
+                  <div class="swiper-button-prev6 blog__swiper-button-prev"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M29 18L21 25L29 32" stroke="#787A7C"/>
+</svg>
+                  </div>
+                  <div class="swiper-button-next6 blog__swiper-button-next"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24.5" stroke="#787A7C"/>
+<path d="M21 32L29 25L21 18" stroke="#787A7C"/>
+</svg>
+                  </div>
+                </div>
+                <div class="swiper-container6 blog__swiper-container">
+                  <div class="swiper-wrapper blog__swiper-wrapper">
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="kol__card-img-pro" src="img/main/kol/img5.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Galaxy Fan Fest</div></a></div>
+                    <div class="swiper-slide blog__swiper-slide blog__swiper-slide-sm"> <a class="blog__card blog__card-sm" href="#"><img class="kol__card-img-pro" src="img/main/kol/img6.png" alt="img">
+                        <!-- <div class="blog__card-date neue-text2">Gaming Overload</div> -->
+                        <div class="blog__card-title neue-headline3">Miss Toàn Thư Bách Khoa</div></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__business pp-scrollable">
+          <div class="section-main blog js-section" id="business">
+            <div class="container-main blog__container">
+              <div class="blog__row">
+                <div class="blog__title neue-headline2-green">Business Consultant - Tư vấn kinh doanh</div>
+                <div class="digital_head">Business Partner - Đối tác kinh doanh</div>
+                <div>
+                  <div class="digital_text">EMPIRA đồng hành cùng quý doanh nghiệp như một đối tác chiến lược, tham gia vào các hoạt động nhằm mang đến kết quả kinh doanh tốt nhất.</div>
+                </div>
+                <div class="business_box">
+                  <div class="digital_text">&#9830; Tư vấn chiến lược kinh doanh.</div>
+                  <div class="digital_text">&#9830; Thực hiện Marketing.</div>
+                  <div class="digital_text">&#9830; Tư vấn xây dựng đội ngũ nhân sự.</div>
+                  <div class="digital_text">&#9830; Xây dựng hệ thống bán hàng, chăm sóc khách hàng.</div>
+                  <div class="digital_text">&#9830; Thiết kế quy trình làm việc tối ưu.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section__contacts pp-scrollable">
+          <div class="section-main contact js-section" id="contact">
+            <div class="container-main contacts__container">
+              <div class="contacts__row">
+                <div class="contacts__column">
+                  <div class="contacts__work">
+                    <div class="contacts__work-text manrope-text2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.5740883321275!2d106.71794882144548!3d10.7999610780702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a61114b58f%3A0xffab814fd0258439!2zNTYxQSDEkGnhu4duIEJpw6puIFBo4bunLCBQaMaw4budbmcgMjUsIELDrG5oIFRo4bqhbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1665079544279!5m2!1svi!2s" style="border-radius: 10px; filter: invert(80%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    <div class="contacts__button-wrapper"><a class="contacts__button" href="#"></a></div>
+                  </div>
+                </div>
+                <div class="contacts__column">
+                  <div class="contacts__title neue-headline2-green">Liên lạc với chúng tôi</div>
+                  <div class="contacts__inner">
+                    <div class="contacts__wrapper">
+                      <div class="contacts__contacts">
+                        <div class="contacts__contact">
+                          <div class="contacts__contact-title manrope-text2">Địa chỉ</div>
+                          <div class="contacts__contact-item contacts__adress neue-headline3">Văn phòng 02, Tầng 08, Tòa nhà Pearl Plaza<br>Số 561A Điện Biên Phủ<br>Phường 25, Quận Bình Thạnh<br>Thành phố Hồ Chí Minh, Việt Nam</div>
+                        </div>
+                        <div class="contacts__contact">
+                          <div class="contacts__contact-title manrope-text2">Điện thoại</div><a class="contacts__contact-item contacts__tel neue-headline3" href="tel:0937436559">0937436559 - Hoàng Tú</a>
+                        </div>
+                        <div class="contacts__contact">
+                          <div class="contacts__contact-title manrope-text2">Email</div><a class="contacts__contact-item contacts__mail neue-headline3" href="mailto:empira.network@gmail.com">empira.network@gmail.com</a>
+                        </div>
+                      </div>
+                      <ul class="contacts__follow">
+                        <li>
+                          <div class="contacts__contact-title manrope-text2">Kết nối</div>
+                        </li>
+                        <li class="contacts__follow-link-wrapper"><a class="contacts__follow-link contacts__contact-item neue-headline3" href="#">Facebook</a></li>
+                        <li class="contacts__follow-link-wrapper"><a class="contacts__follow-link contacts__contact-item neue-headline3" href="#">Tiktok</a></li>
+                        <li class="contacts__follow-link-wrapper"><a class="contacts__follow-link contacts__contact-item neue-headline3" href="#">Youtube</a></li>
+                        <li class="contacts__follow-link-wrapper"><a class="contacts__follow-link contacts__contact-item neue-headline3" href="#">Instagram</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contacts__private neue-text2">Privacy Policy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
